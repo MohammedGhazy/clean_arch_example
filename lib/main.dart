@@ -1,3 +1,4 @@
+import 'package:clean_arch_example/modules/Auth_module/register/screen/register_screen.dart';
 import 'package:clean_arch_example/modules/presentation/home_screen/cubit/bloc.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  HomeScreen()
+      home:  RegisterScreen()
     );
   }
 }
